@@ -3,7 +3,7 @@ Its an responsive and dynamic module for scheduling the pass for visitors coming
 
 •	employees can plan for the family members and clients visit to their respective campuses on weekend  
 •	Visitor pass access management system will aid the employees in raising a pass request which can be approved or rejected by the security head in their respective locations. 
-•	. Each user can request for a maximum of 2 visitor passes in a month for family members  
+•	Each user can request for a maximum of 2 visitor passes in a month for family members  
 
 •	This module will provide the following features 
 1.	Employees in the system can raise a visitor pass request for the following types of visitors 
