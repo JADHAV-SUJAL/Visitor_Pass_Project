@@ -74,7 +74,7 @@ Stage 5: Micro-service implementation
 3.	All exceptions in the micro-service must be handled and logged using a logging library 
 4.	Create the following end-points and test them using postman and export the requests into a json file.
 	
-Table 6 : Visitor Pass – Endpoint – 1 
+Table 1 : Visitor Pass – Endpoint – 1 
 URL 	api/passrequests/<location> 
 Request Type 	GET 
 User Role 	SecurityHead 
@@ -83,7 +83,7 @@ Description 	A security head must be able to fetch all the pending visitor pass 
 Inputs 	Location 
 Outputs 	VisitorPassRequestDTOs containing all visitor pass request details along with ID proof 
  
-Table 7 : Visitor Pass – Endpoint – 2 
+Table 2 : Visitor Pass – Endpoint – 2 
 URL 	api/passrequests/new 
 Request Type 	POST 
 User Role 	Employee 
@@ -92,7 +92,7 @@ Description 	A logged in employee should be able to successfully raise a visitor
 Inputs 	VisitorPassRequestDTO containing all visitor pass request details  
 Outputs 	Status code on success or validation errors 
 
-Table 8 : Visitor Pass – Endpoint – 3 
+Table 3 : Visitor Pass – Endpoint – 3 
 URL 	api/vistortypes 
 Request Type 	GET 
 User Role 	Employee 
@@ -101,7 +101,7 @@ Description 	An employees should be able to view the types of visitor available
 Inputs 	 
 Outputs 	VisitorTypeDTOs 
 
-Table 9 : Visitor Pass – Endpoint – 4 
+Table 4 : Visitor Pass – Endpoint – 4 
 URL 	api/passrequests/approvereject 
 Request Type 	POST 
 User Role 	Security Head 
@@ -110,7 +110,7 @@ Description 	The location security head is responsible for updating the status o
 Inputs 	UpdatePassRequestDTO containing requestid, status and reason 
 Outputs 	Status code 
 
-Table 10 : Visitor Pass – Endpoint – 5 
+Table 5 : Visitor Pass – Endpoint – 5 
 URL 	api/passrequests/<requestid> 
 Request Type 	GET 
 User Role 	SecurityHead 
